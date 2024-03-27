@@ -1,5 +1,4 @@
-x = input('Please enter an integer value: ')
-y = input('Please enter another integer value: ')
-num1 = int(x)
-num2 = int(y)
-print (num1, '+', num2, '=', num1 + num2)
+num1 = eval(input('Enter the First number: '))
+num2 = eval(input('Enter the Second number: '))
+sum = num1 + num2
+print(num1, '+', num2, '=', sum)
