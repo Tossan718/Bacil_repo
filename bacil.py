@@ -1,4 +1,6 @@
-num1 = int(input('Please enter an integer value: '))
-num2 = int(input('Please enter another integer value: '))
-print(num1, '+', num2, '=', num1 + num2)
-
+w, x, y, z = 12, 50, 45, 9
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
