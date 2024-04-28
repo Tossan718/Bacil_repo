@@ -1,5 +1,5 @@
-num1 = eval(input('Enter the First number: '))
-num2 = eval(input('Enter the Second number: '))
-sum = num1 // num2
-print(num1, '//', num2, '=', sum)
-
+eight = 8.0
+two = 2.0
+two_fourth = 2.0/4.0
+zero = eight - two_fourth - two_fourth - two_fourth
+print('eight=', eight, 'two_fourth =', two_fourth, ' zero =', zero)
