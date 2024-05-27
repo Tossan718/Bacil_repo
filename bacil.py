@@ -1,9 +1,15 @@
-def Almalia ():
-    print ("bacil")
-    print ("Alma")
-    print ("gemess")
+from numpy import repeat
 
-Almalia ()
-Almalia ()
-Almalia ()
-Almalia ()
+
+def first_two_lines ():
+    print ("bacil, " * 3)
+    print ("gemes, " * 3)
+
+first_two_lines ()
+
+def last_three_lines (): 
+    print ("all the best, " * 2)
+    print ("(semangat Alma UAS nya!!!)")
+    print ("semoga bagus, " * 3)
+
+last_three_lines ()
