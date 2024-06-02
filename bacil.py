@@ -1,21 +1,3 @@
-from numpy import repeat
-
-
-def first_two_lines ():
-    print ("bacil, " * 3)
-    print ("gemes, " * 3)
-
-first_two_lines ()
-print ("\n")       
-def last_three_lines (): 
-    print ("all the best, " * 2)
-    print ("(semangat Alma UAS nya!!!)")
-    print ("semoga bagus, " * 2)
-
-last_three_lines ()
-
-def print_Alma (): 
-    first_two_lines () 
-    last_three_lines () 
-
-print_Alma () 
+n = int (input ("Enter the number of rows:"))
+for i in range (1, n+1) :
+    print ((n-i) * " " + (2*i-1) * "l")
