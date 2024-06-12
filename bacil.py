@@ -1,3 +1,14 @@
-n = int (input ("Enter the number of rows:"))
-for i in range (1, n+1) :
-    print ((n-i) * " " + (2*i-1) * "l")
+print('## Program Python Piramida ##')
+
+print()
+ 
+tinggi_piramida = int (input('berapa banyak :'))
+print()
+
+for i in range(tinggi_piramida):
+  for j in range(tinggi_piramida-i):
+    print(' ',end='')
+     
+  for k in range(i+1):
+    print('$ ',end='')
+  print()
