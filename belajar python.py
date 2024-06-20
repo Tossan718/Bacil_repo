@@ -1,13 +1,9 @@
-# belajar triangle 
-n = 5       
-for i in range (n): 
 
-    for j in range (i,n) : 
-        print (' ', end=' ')
+def bottle_verse () :
+   
+   print ("bottles of vodka on the wall")
+   print ("Take one down, pass it around")
 
-    for j in range (i):
-        print ('#', end=' ')
-    
-    for k in range (i+1):
-        print ('#', end=' ')
-    print ()  
+for n in range (99, 0, -1) :
+    bottle_verse()
+    print ((n),'bottles of vodka on the wall')
