@@ -1,11 +1,14 @@
-def bottle_verse () :
+def alma_eats () :
    
-   print ("Take one down, pass it around")
+   print ("there are 6 dumplings in a bowl")
+   print ("bacil eats one")
 
-bottle_verse()
 
-for n in range (99, 0, -1) :
-   print ('99 bottles of vodka on the wall')
-   bottle_verse()
-   print ((n), 'bottles of vodka on the wall' )
+
+for n in range (6,0,-1) :
+  
+   alma_eats()
+   print ("now there's", (n) , "left in the bowl")
+
+print ('clear')
    

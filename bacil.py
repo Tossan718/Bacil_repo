@@ -1,5 +1,5 @@
-print('## Program Python Piramida ##')
-
+# Program Python Piramida #
+print ('piramid kiddos')
 print()
  
 tinggi_piramida = int (input('berapa baris :'))
