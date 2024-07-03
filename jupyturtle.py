@@ -1,20 +1,14 @@
 import turtle 
+def kotak (): 
+    alma = turtle.Turtle()
 
-alma = turtle.Turtle()
+    forward = 120
+    left = 90 
+    for i in range (4): 
+        alma.forward (forward)
+        alma.left (left)
+   
 
-alma.forward (150)
-alma.left (90)
-alma.forward (150)
-alma.left (90)
-alma.forward (150)
-alma.left (90)
-alma.forward (150)
-
-
-
-
-
-
-
+kotak ()
 
 turtle .done ()
