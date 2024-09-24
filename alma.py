@@ -1,14 +1,14 @@
-def alma_eats () :
+import math 
+import turtle 
+
+
+domba = turtle.Turtle () 
+
+for i in range (5) : 
+   domba.forward (150)
+   domba.right (90)
    
-   print ("there are 6 dumplings in a bowl")
-   print ("bacil eats one")
-
-
-
-for n in range (6,0,-1) :
-  
-   alma_eats()
-   print ("now there's", (n) , "left in the bowl")
-
-print ('clear')
-   
+for i in range (6) : 
+   domba.forward (250)
+   domba.right (90)
+turtle.done()
